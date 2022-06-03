@@ -21,26 +21,31 @@ While working on the project, I utilized many popular languages, libraries,
 and frameworks listed below.
 
 #### Languages
-* [C#](c-razor-syntax-example>)
-* [HTML]()
-* [CSS]()
-* [Javascript]()
-
-
+* [C#](#c)
+* [HTML (+C#/Razor syntax)](#razor-syntax)
+* [CSS](#css)
+* [Javascript](#javascript)
 
 #### Libraries
-* [Bootstrap]()
-* [JQuery]()
+* [Bootstrap](#bootstrap)
+* [JQuery](#jquery)
 
 #### Frameworks
-* [ASP.NET MVC]()
-* [Entity Framework]()
+* [ASP.NET MVC](#aspnet-mvc-controller)
+* [Entity Framework](#)
 
+<hr>
 
 ### Examples
-Below are some specific bits of code that I wrote while working on the project.
+Below are some blocks of code that I wrote while working on the project.
+I've inserted ellipses wherever the snippets have been abbreviated.
 
-###### C# Razor Syntax Example
+###### C#
+```cs
+
+```
+
+###### Razor Syntax
 ```razor
 @model IEnumerable<TheatreCMS3.Areas.Prod.Models.ProductionMember>
 
@@ -59,24 +64,9 @@ Below are some specific bits of code that I wrote while working on the project.
         <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.YearJoined)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.MainRole)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Bio)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Photo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CurrentMember)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CastYearLeft)
-        </th>
+        
+        ...
+        
         <th>
             @Html.DisplayNameFor(model => model.DebutYearLeft)
         </th>
@@ -86,30 +76,18 @@ Below are some specific bits of code that I wrote while working on the project.
 @{ var index = 0; }
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.YearJoined)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.MainRole)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Bio)
-        </td>
+    
+        ...
+        
         <td>
             <img src="@ViewBag.ImageDataUrls[index]" width="auto" height="75px" /> @{ index++; }
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CurrentMember)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CastYearLeft)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DebutYearLeft)
-        </td>
+        
+        ...
+        
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ProductionMemberId }) |
             @Html.ActionLink("Details", "Details", new { id=item.ProductionMemberId }) |
@@ -119,4 +97,24 @@ Below are some specific bits of code that I wrote while working on the project.
 }
 
 </table>
+```
+
+###### CSS
+```css
+
+```
+
+###### JQuery
+```js
+
+```
+
+###### Bootstrap
+```html
+
+```
+
+###### ASP.NET MVC Controller
+```css
+
 ```
