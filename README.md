@@ -22,7 +22,7 @@ frameworks listed below.
 * [C#](#c)
 * [HTML (+C#/Razor syntax)](#razor-syntax)
 * [CSS](#css)
-* [Javascript](#javascript)
+* [Javascript](#jquery)
 
 #### Libraries
 * [Bootstrap](#bootstrap)
@@ -70,7 +70,7 @@ namespace TheatreCMS3.Areas.Prod.Models
     }
 }
 ```
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
 <hr>
 
 ###### Razor Syntax
@@ -118,7 +118,7 @@ namespace TheatreCMS3.Areas.Prod.Models
 
 </table>
 ```
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
 <hr>
 
 ###### CSS
@@ -203,7 +203,7 @@ namespace TheatreCMS3.Areas.Prod.Models
 }
 /* END CREATE & EDIT PAGES */
 ```
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
 <hr>
 
 ###### JQuery
@@ -212,11 +212,11 @@ namespace TheatreCMS3.Areas.Prod.Models
 var total_developers = ($("#PersonList").children()).length;
 $("#NumPersons").html(total_developers);
 ```
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
 <hr>
 
 ###### Bootstrap
-```html
+```razor
 <h2 class="text-center mt-4 mb-4">Create Production Member</h2>
 
 
@@ -262,7 +262,7 @@ $("#NumPersons").html(total_developers);
     @Html.ActionLink("Back to List", "Index")
 </button>
 ```
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
 <hr>
 
 ###### ASP.NET MVC Controller
@@ -291,4 +291,4 @@ $("#NumPersons").html(total_developers);
 }
 ```
 
-###### [*back to top*](#introduction)
+###### [back to top](#introduction)
