@@ -1,5 +1,3 @@
-> ### **NOTICE:** This README is still in progress.
-
 [this comment is to check for 80 character line lengths]:\\\\\\\\\\\\\\\\\\\\\\\
 
 # Introduction
